@@ -5,11 +5,11 @@ var fs = require('fs');
 var formidable = require('formidable');
 var AWS = require('aws-sdk')
 var async = require('async')
-var bucketName = "image-hoster-bucket"
+var bucketName = *YOUR IMAGE BUCKET NAME*
 var path = require('path');
 var analysis = require('./analysis');
 
-AWS.config.update({ accessKeyId: 'AKIAJUDAGBGLN64ZXFDA', secretAccessKey: 'n65ND2cStgC1eNuH+yqAH9z2VBYtqE6fb+1vJCd9'});
+AWS.config.update({ accessKeyId: *YOUR ACCESS KEY*, secretAccessKey: *YOUR SECRET KEY*});
 var s3 = new AWS.S3({
   region: 'us-west-1'
  });
