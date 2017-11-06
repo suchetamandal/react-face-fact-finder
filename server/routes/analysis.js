@@ -6,8 +6,8 @@ exports.getAnalisys = function(URL,res){
   qs: { source: URL },
   headers: 
    { 
-     app_key: '604a9de8bb46f89ffe8722cc5d320d0d',
-     app_id: 'e26ffd93',
+     app_key: *YOUR KEY*,
+     app_id: *YOUR APP ID*,
      'content-type': 'application/json' } 
   };
 
